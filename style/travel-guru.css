@@ -140,17 +140,17 @@
 }
 /* destination style end */
 /* why-choose-us style start  */
-.why-choose-us-container{
+.why-choose-us-container, .Deals-Discounts-container {
     padding: 50px 120px;
     text-align: center;
 }
-.why-choose-us-content > h1{
+.why-choose-us-content > h1, .Deals-Discounts-content > h1{
     font-size: 2.5rem;
     font-weight: 800;
     color: #131318;
     margin-bottom: 20px;
 }
-.why-choose-us-content > p{
+.why-choose-us-content > p, .Deals-Discounts-content > p{
     font-size: 1rem;
     font-weight: 400;
     color: #131318B2;
@@ -210,6 +210,78 @@
 }
 
 /* why-choose-us style end  */
+
+/* Deals-Discounts style start  */
+
+.Deals-Discounts-card-11{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 600px;
+    height: 400px;
+    text-align: start;
+}
+.Deals-Discounts-card-1-bg-1, .Deals-Discounts-card-1-bg-2, .Deals-Discounts-card-1-bg-3 {
+    background-image: url(../Images/Group39.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px; 
+    padding-top: 90px;
+    padding-left: 630px;
+    padding-bottom: 90px;
+    margin-bottom: 20px;
+}
+.Deals-Discounts-card-1-bg-2{
+    background-image: url(../Images/Group40.png);
+    padding-left: 50px;
+}
+.Deals-Discounts-card-time-location{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 40px;
+    max-width: 400px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400; 
+}
+.Deals-Discounts-card-11 > h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.Deals-Discounts-card-11 > p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+    padding-left: 40px;
+    max-width: 450px;
+    padding-bottom: 40px;
+}
+.Deals-Discounts-card-11 > h4{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #FF5400;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.Deals-Discounts-card-11 > button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #ff5400;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+/* Deals-Discounts style end  */
 
 /* main section style end */
 
