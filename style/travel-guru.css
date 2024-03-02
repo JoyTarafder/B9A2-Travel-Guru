@@ -78,6 +78,8 @@
 .footer-container > ul > li{
     list-style: none;
     padding-right: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .footer-container > ul{
     display: flex;
@@ -89,4 +91,15 @@
     gap: 0 20px;
     justify-content: center;
     margin-bottom: 20px;
+}
+.footer-content-p{
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #131318;
+}
+#footer-line{
+    border-top: 1px solid #1313181A;
+    max-width: 700px;
+    margin: 0 auto;
 }
