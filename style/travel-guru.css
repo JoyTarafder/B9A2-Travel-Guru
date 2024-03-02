@@ -269,7 +269,7 @@
     padding-left: 40px;
     padding-bottom: 30px;
 }
-.Deals-Discounts-card-11 > button{
+.Deals-Discounts-btn{
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
@@ -279,6 +279,10 @@
     font-weight: 800;
     cursor: pointer;
     margin-left: 40px;
+}
+#see-btn{
+    margin-left: 700px;
+    margin-bottom: 40px;
 }
 
 /* Deals-Discounts style end  */
