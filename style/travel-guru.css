@@ -68,9 +68,12 @@
     font-weight: 700;
 }
 .footer-container > p{
-    font-size: 0.9rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 400;
     font-family: Manrope; 
+    color: #5A5A5D;
+    max-width: 400px;
+    margin: 0 auto;
 }
 .footer-container > ul > li{
     list-style: none;
@@ -80,4 +83,10 @@
     display: flex;
     justify-content: center;
     margin-top: 17px;
+}
+.footer-logo{
+    display: flex;
+    gap: 0 20px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
