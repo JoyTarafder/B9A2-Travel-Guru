@@ -54,6 +54,37 @@
 
 /* header style end */
 
+/* main section style start */
+/* explore section style start */
+.explore-container{
+    padding: 50px 120px;
+    text-align: center;
+}
+.bg{
+    background-size: cover;
+    background-image: url(../images/Group13.png);
+    max-width: 1290px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.explore-content > h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+.explore-content > p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* main section style end */
 
 
 /* footer style start */
