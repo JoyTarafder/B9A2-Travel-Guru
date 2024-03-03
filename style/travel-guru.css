@@ -345,13 +345,13 @@
 .simple-perfect-place-content{
     max-width: 460px;
 }
-.simple-perfect-place-content > h1{
+.simple-perfect-place-content > h1, .section-title{
     font-size: 2.5rem;
     font-weight: 800;
     color: #131318;
     margin-bottom: 20px;
 }
-.simple-perfect-place-content > p{
+.simple-perfect-place-content > p , .color-light-grey{
     font-size: 1rem;
     font-weight: 400;
     color: #5A5A5D;
@@ -473,6 +473,19 @@
     margin: 0 auto;
 }
 /* newsletter style end  */
+
+.sponsors{
+    margin-top: 30px;
+    text-align: center;
+}
+.sponsors-container-img{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 /* main section style end */
 
