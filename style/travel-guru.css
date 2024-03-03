@@ -328,6 +328,11 @@
     cursor: pointer;
 
 }
+.popular-list{
+    color: #131318B2;
+    font-weight: 400;
+    font-size: 1rem;
+}
 
 
 /* simple-perfect-place style end */
