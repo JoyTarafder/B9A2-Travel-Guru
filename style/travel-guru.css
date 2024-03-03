@@ -59,6 +59,7 @@
 .explore-container{
     padding: 50px 120px;
     text-align: center;
+    margin-bottom: 30px;
 }
 .bg{
     background-size: cover;
@@ -66,9 +67,11 @@
     max-width: 1290px;
     margin: 0 auto;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 .explore-content > h1{
+    margin-top: 50px;
     font-size: 4rem;
     font-weight: 800;
     color: #FFFFFF;
@@ -83,6 +86,44 @@
     margin: 0 auto;
     margin-bottom: 40px;
 }
+.explore-content-input{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-bottom: 80px;
+}
+.explore-content-input input[type="text"]{
+    border: 1px solid #ccc;
+    flex-grow: 1;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-right: 10px;
+    max-width: 300px;
+    font-size: 1rem;
+    padding-left: 30px;
+    color: rgba(19, 19, 24, 0.50); 
+}
+
+.select-input{
+    border: 1px solid #ccc;
+    flex-grow: 1;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    padding-left: 30px;
+    color: rgba(19, 19, 24, 0.50); 
+}
+.Find-Now{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 10px;
+}
+
+/* explore section style end */
 
  /* destination style start */
 
