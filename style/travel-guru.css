@@ -286,6 +286,51 @@
 }
 
 /* Deals-Discounts style end  */
+/* simple-perfect-place style start */
+.simple-perfect-place-container{
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0 50px;
+}
+.simple-perfect-place-content{
+    max-width: 460px;
+}
+.simple-perfect-place-content > h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 20px;
+}
+.simple-perfect-place-content > p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+    margin-bottom: 40px;
+}
+.simple-perfect-place-content > ul{
+    padding-left: 12px;
+
+}
+.simple-perfect-place-content > ul > li{
+    padding-bottom: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+#see-more{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #ff5400;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+
+/* simple-perfect-place style end */
 
 /* newsletter style start  */
 .newsletter-container{
