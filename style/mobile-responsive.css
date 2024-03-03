@@ -114,17 +114,17 @@
         font-size: 1rem;
         font-weight: 800;
     }
-    .why-choose-us-container{
+    .why-choose-us-container, .Deals-Discounts-container{
         padding: 0px;
         max-width: 350px;
         margin: 0 auto;
     }
-    .why-choose-us-content > h1{
+    .why-choose-us-content > h1, .Deals-Discounts-content > h1{
         font-size: 1.2rem;
         font-weight: 800;
         padding-top: 20px;
     }
-    .why-choose-us-content > p{
+    .why-choose-us-content > p, .Deals-Discounts-content > p{
         font-size: 0.8rem;
         padding-top: 10px;
     }
@@ -158,5 +158,25 @@
         padding-left: 30px;
         padding-bottom: 30px;
     }
-
+    .Deals-Discounts-card-11{
+        padding: 30px;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Deals-Discounts-card-11 > h3{
+        font-size: 1rem;
+    }
+    .Deals-Discounts-card-11 > h4{
+        font-size: 0.9rem;
+    }
+    .Deals-Discounts-card-11 > p{
+        font-size: 0.8rem;
+    }
+    .Deals-Discounts-btn{
+        width: 130px;
+        height: 40px;
+        flex-shrink: 0;
+        font-size: 1rem;
+    }
 }
