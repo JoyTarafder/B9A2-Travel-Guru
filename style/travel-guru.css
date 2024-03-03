@@ -347,14 +347,13 @@
     font-size: 1rem;
     font-weight: 400;
     color: #5A5A5D;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .simple-perfect-place-content > ul{
     padding-left: 12px;
-
 }
 .simple-perfect-place-content > ul > li{
-    padding-bottom: 30px;
+    padding-bottom: 22px;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -367,6 +366,7 @@
     font-size: 1.2rem;
     font-weight: 800;
     cursor: pointer;
+    margin-top: 15px;
 
 }
 .popular-list{
