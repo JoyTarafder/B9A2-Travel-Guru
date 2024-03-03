@@ -1,0 +1,61 @@
+@media screen and (max-width: 578px){
+    .nav , .nav  ul, .explore-content-input{
+        flex-direction: column;
+    }
+    .nav  ul  li{
+        padding-bottom: 10px;
+        align-items: center;
+    }
+    .nav  h1{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .bg{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;;
+    }
+    .logo img{
+        width: 29px;
+        height: 35px;
+    }
+    .explore-container{
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+    .bg{
+        max-width: 350px;
+    }
+    .explore-content  h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding-top: 20px;
+    }
+    .explore-content > p{
+        font-size: 0.8rem;
+        padding-top: 10px;
+    }
+    .explore-content-input input[type="text"]{
+        width: 60%;
+        padding: 10px;
+        margin: 10px 0px;
+        align-items: center;
+    }
+    .select-input{
+        width: 60%;
+        margin: 10px 0px;
+    }
+    .Find-Now{
+        width: 60%;
+        margin: 10px 0px;
+        color: white;
+    }
+    .explore-content-input{
+        /* padding: 0px; */
+        align-items: center;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
